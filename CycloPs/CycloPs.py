@@ -18,8 +18,8 @@ import sys
 #sys.stderr = open('my_stderr.txt', 'w')
 #sys.stdout = open('my_stdout.txt', 'w')
 
-import Image as PIL
-import ImageTk as piltk
+from PIL import Image as pil
+from PIL import ImageTk as piltk
 #import pybel
 #import openbabel
 import rdkit

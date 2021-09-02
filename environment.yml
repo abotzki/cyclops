@@ -1,0 +1,12 @@
+name: cyclops-tools-1.0.1
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - rdkit
+dependencies:
+  ## conda-forge packages, sorting now alphabetically, without the channel prefix!
+  - python=2.7.18
+  - rdkit::rdkit=2017.09.
+  - numpy
+  - conda-forge::pillow=5.1.0
